@@ -1,0 +1,47 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .movie-grid {
+    display: grid;
+    background-color: #000000;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 80px;
+  }
+  
+  .movie-card {
+    background-color: #fff;
+  
+   
+    padding: 50px;
+    text-align: center;
+    transition: transform 0.2s ease;
+      
+}
+  
+  .movie-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .movie-card img {
+   
+    border-radius: 6px;
+  }
+  
